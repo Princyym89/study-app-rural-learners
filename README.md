@@ -1,20 +1,67 @@
-HEAD
-# React + Vite
+Study App for Learners in Rural Areas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Study App designed to help learners in rural areas access study materials, quizzes, and notes — even with limited internet connectivity.
+The app supports offline mode, allowing learners to view saved materials without needing constant access to the internet.
+Project Overview
 
-Currently, two official plugins are available:
+This project is part of my Frontend Capstone Project at ALX.
+The goal is to build an educational platform that provides accessible learning content, helps students practice through quizzes, and supports offline use for learners in rural or low-connectivity areas.
+Features (Planned & In Progress)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📚 Access study materials by subject or topic
 
-## React Compiler
+🧠 Take quizzes and view results
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📝 Create and save personal notes
 
-## Expanding the ESLint configuration
+💾 Offline access to downloaded materials
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# study-app-rural-learners
-A Study App for learners in rural areas to access study materials and quizzes with offline functionality.
+🔍 Search bar to find topics easily
+
+🌐 Responsive design for mobile, tablet, and desktop
+Tech Stack
+
+React (Vite Setup) – Fast and modern frontend framework
+
+Tailwind CSS – For responsive, clean, and simple styling
+
+JavaScript (ES6+) – Core logic and state management
+
+LocalStorage / Service Worker – For offline functionality (upcoming feature)
+
+How to Run the Project
+
+Clone the repository:
+
+git clone https://github.com/Princyym89/study-app-rural-learners.git
+
+Navigate into the project:
+
+cd study-app-rural-learners
+
+
+Install dependencies:
+
+npm install
+
+
+Run the app locally:
+
+npm run dev
+
+
+Open your browser and go to:
+
+http://localhost:5173/
+
+📅 Project Status
+
+✅ Project setup completed
+🚧 Working on core components and offline mode
+✨ UI design and quizzes section coming next
+
+🧾 Author
+
+👩‍💻 Princess Matsobe
+Frontend Developer | ALX Learner
+📍 South Africa
